@@ -1,4 +1,4 @@
-# Free version will be available in a week for lifetime join discord server
+# Free version is available & you can use it
 # Noraware Internal v0.35 **[Website](https://noraware.xyz)**
 # **[Discord Server](https://discord.gg/7zeRmJ38R8)**
 - **Growtopia Internal: Free (Limited) or Premium (Full Access)!**
