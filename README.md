@@ -1,5 +1,5 @@
 # Free version is available
-# Noraware Internal v0.35 **[Website](https://noraware.xyz)**
+# Noraware Internal v0.36 **[Website](https://noraware.xyz)**
 # **[Discord Server](https://discord.gg/7zeRmJ38R8)**
 - **Growtopia Internal: Free (Limited) or Premium (Full Access)!**
 * **[Executor API](api/readme.md)**
