@@ -5,6 +5,9 @@
 * **[Executor API](api/readme.md)**
 * **[General Changelogs](api/changelogs.md)**
 
+# Official Showcase
+- https://www.youtube.com/watch?v=dHSZsa5-7uE
+
 # Latest Update
 - **auto updater**
 - **special talk between nora users**
