@@ -1,6 +1,6 @@
 # Changelogs
 
-## Release 0.41
+## Release 0.42
     [+] added account switcher (save accounts and switch between them, with optional fingerprint)
     [+] added accounts page (add / edit / remove accounts, fill from current login)
     [+] added vend buy page (fast buy, fast restock, fast withdraw, buy what you can afford, price check)
