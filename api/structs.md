@@ -9,13 +9,21 @@
 * **[tile_extra_t](#tile_extra_t)**
 * **[tile_extra_type](#tile_extra_type)**
 * **[world_object_t](#world_object_t)**
+* **[world_object_map_t](#world_object_map_t)**
+* **[world_tile_map_t](#world_tile_map_t)**
 * **[inventory_item_t](#inventory_item_t)**
 * **[player_items_t](#player_items_t)**
 * **[world_t](#world_t)**
-* **[item_flag](#item_flag)**
-* **[item_info_t](#item_info_t)**
 * **[net_avatar_t](#net_avatar_t)**
+* **[body_parts_t](#body_parts_t)**
+* **[item_info_t](#item_info_t)**
 * **[game_packet_t](#game_packet_t)**
+
+### Enums
+* **[tile_flag](#tile_flag)**
+* **[item_flag](#item_flag)**
+* **[body_part_type](#body_part_type)**
+* **[tile_collision_type](#tile_collision_type)**
 * **[packet_flag](#packet_flag)**
 * **[game_packet_type](#game_packet_type)**
 
@@ -35,6 +43,8 @@
 | X-coordinate | **x** | int |
 | Y-coordinate | **y** | int |
 
+Create one with `vec2i.new(x, y)` or `get_vec2i(x, y)`.
+
 ---
 
 ### vec2f
@@ -42,6 +52,8 @@
 |:------------|:----:|:-----|
 | X-coordinate | **x** | float |
 | Y-coordinate | **y** | float |
+
+Create one with `vec2f.new(x, y)` or `get_vec2f(x, y)`.
 
 ---
 
@@ -69,7 +81,7 @@
 |:------------|:----:|:-----|
 | Foreground tile ID | **fg** | int |
 | Background tile ID | **bg** | int |
-| Tile flags | **flag** | [tile_flag](#tile_flag) |
+| Tile flags | **flags** | [tile_flag](#tile_flag) |
 | Tile position | **pos** | [vec2i](#vec2i) |
 | Extra tile data | **extra** | [tile_extra_t](#tile_extra_t) |
 
@@ -95,14 +107,36 @@
 ---
 
 ### world_object_t
+In Lua this type is called **object_t** (`get_objects`, `get_object_info`, `world.object_map.objects`).
+
 | Description | Name | Type |
 |:------------|:----:|:-----|
-| Object ID | **id** | int |
+| Item ID | **id** | int |
 | Object count | **count** | int |
-| Object amount | **amount** | int |
+| Object count (same as `count`) | **amount** | int |
 | Object flags | **flags** | int |
 | Object unique ID | **oid** | int |
-| Object position | **pos** | [vec2i](#vec2i) |
+| Object position | **pos** | [vec2f](#vec2f) |
+
+---
+
+### world_object_map_t
+| Description | Name | Type |
+|:------------|:----:|:-----|
+| Every object in the world | **objects** | table of [object_t](#world_object_t) |
+| Object on a tile | **get_object** | function(int x, int y) -> [object_t](#world_object_t) |
+| Object by its unique ID | **get_object_by_oid** | function(int oid) -> [object_t](#world_object_t) |
+| Object by item ID | **get_object_by_id** | function(int id) -> [object_t](#world_object_t) |
+
+---
+
+### world_tile_map_t
+| Description | Name | Type |
+|:------------|:----:|:-----|
+| Map size | **size** | [vec2i](#vec2i) |
+| Every tile in the world | **tiles** | table of [tile_t](#tile_t) |
+| Tile at x, y | **get_tile** | function(int x, int y) -> [tile_t](#tile_t) |
+| Tile by index | **get_tile_by_id** | function(int id) -> [tile_t](#tile_t) |
 
 ---
 
@@ -119,7 +153,7 @@
 ### player_items_t
 | Description | Name | Type |
 |:------------|:----:|:-----|
-| Check if an item exists | **id** | function(int) -> bool |
+| Check if an item exists | **check_id** | function(int) -> bool |
 | Get item count | **get_item_count** | function(int) -> int |
 | Get all items | **get_items** | function() -> table |
 | Get specific item | **get_item** | function(int) -> [inventory_item_t](#inventory_item_t) |
@@ -187,7 +221,30 @@
 | Super Moderator status | **smod** | bool |
 | Position | **pos** | [vec2f](#vec2f) |
 | Tile position | **tile** | [vec2i](#vec2i) |
-| Clothes | **clothes** / **body_parts**| [body_parts_t](#body_parts_t) |
+| Worn clothes — the set the game sends | **clothing_items_original** | [body_parts_t](#body_parts_t) |
+| Worn clothes after the substitution pass | **transmutated_clothing_items** | [body_parts_t](#body_parts_t) |
+| Old name for `clothing_items_original` | **clothes** | [body_parts_t](#body_parts_t) |
+| Old name for `transmutated_clothing_items` | **raw_clothes** | [body_parts_t](#body_parts_t) |
+
+> `clothes` and `raw_clothes` are the old names and still work. Note that `raw_clothes` is **not**
+> the untouched set — it gives `transmutated_clothing_items`, the run after the substitution pass.
+> Use `clothing_items_original` when you want what you are actually wearing.
+
+---
+
+### body_parts_t
+| Description | Name | Type |
+|:------------|:----:|:-----|
+| Hat slot | **hat** | int |
+| Shirt slot | **shirt** | int |
+| Pants slot | **pants** | int |
+| Shoes slot | **feet** | int |
+| Face slot | **face** | int |
+| Hand slot | **hands** | int |
+| Back slot | **wings** | int |
+| Hair slot | **hair** | int |
+| Chest item slot | **chest_item** | int |
+| Old name for `chest_item` | **neck** | int |
 
 ---
 

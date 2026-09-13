@@ -1,5 +1,22 @@
 # Changelogs
 
+## Release 0.41
+    [+] added account switcher (save accounts and switch between them, with optional fingerprint)
+    [+] added accounts page (add / edit / remove accounts, fill from current login)
+    [+] added vend buy page (fast buy, fast restock, fast withdraw, buy what you can afford, price check)
+    [+] added exploit page (marker / door / portal find, stop at the tile or walk to it)
+    [+] added lua functions for building, tiles, items and effects, see [functions](functions.md)
+    [+] added get_tile(x, y) and get_tiles({ ids }) to read tiles from a script
+    [+] added alias names for lua functions (lowerCamel, PascalCase), e.g. getWorld() works like get_world()
+    [+] added vec2i.new(x, y) and vec2f.new(x, y) so scripts can build vectors themselves
+    [+] added send_country_state(badge) / send_badge(badge) for the country badge
+    [~] fixed lua scripts deleting themselves when run from the script list
+    [~] fixed a script disappearing from the list taking the wrong entry with it
+    [~] fixed lua editor missing colors for many functions
+    [~] fixed /master not turning off, and "reset all titles" not resetting
+    [~] fixed /showgems always showing 0
+    [~] fixed /showgems only working the first time it was used
+
 ## Release 0.3
     [+] added special talk between nora users
     [+] added hosting page (still on development)
