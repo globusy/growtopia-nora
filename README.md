@@ -1,5 +1,5 @@
 # Free version is available
-# Noraware Internal v0.36 **[Website](https://noraware.xyz)**
+# Noraware Internal v0.41 **[Website](https://noraware.com)**
 # **[Discord Server](https://discord.gg/7zeRmJ38R8)**
 - **Growtopia Internal: Free (Limited) or Premium (Full Access)!**
 * **[Executor API](api/readme.md)**
@@ -8,7 +8,13 @@
 # Official Showcase
 - https://www.youtube.com/watch?v=dHSZsa5-7uE
 
-# Latest Update
+# Latest Update 0.41
+- **Botting**
+- **Account Switching**
+- **and a lot more**
+- images will be ere soon
+
+# Old Update x.xx
 - **auto updater**
 - **special talk between nora users**
 - **mod detector, hosting, esp**
@@ -19,7 +25,7 @@
 
 ![image](https://github.com/user-attachments/assets/246d0c87-56db-49e0-85c1-2e30bb7d5ff3)
 
-# Old Update
+# Old Update x.xx
 - **Vend Locator Update!**
 
 ![image](https://github.com/user-attachments/assets/e5cd4c78-e030-4532-92fc-077c12964c95)
