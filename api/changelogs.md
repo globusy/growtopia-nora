@@ -1,5 +1,16 @@
 # Changelogs
 
+## Release 0.5
+    [+] teleport page
+    [+] trick page
+    [+] added qq rooms for hosting page 
+    [+] added checkbox for 'tile info', 'show platform', 'swift stride', 'fast take'
+    [+] added exploits to 'extra' page of 'cheats' category 
+    [+] added animations tab to 'visuals' category 
+    [+] added 'harvest', 'clear', 'vend buy' tab to 'automation' category 
+    [+] added 'streamer mode' to 'account switcher'
+    [~] redesigned gui
+    
 ## Release 0.42
     [+] added account switcher (save accounts and switch between them, with optional fingerprint)
     [+] added accounts page (add / edit / remove accounts, fill from current login)
