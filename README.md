@@ -1,5 +1,5 @@
 # Free version is available
-# Noraware Internal v0.42 **[Website](https://noraware.com)**
+# Noraware Internal v0.5 **[Website](https://noraware.com)**
 # **[Discord Server](https://discord.gg/7zeRmJ38R8)**
 - **Growtopia Internal: Free (Limited) or Premium (Full Access)!**
 * **[Executor API](api/readme.md)**
@@ -8,7 +8,13 @@
 # Official Showcase
 - https://www.youtube.com/watch?v=dHSZsa5-7uE
 
-# Latest Update 0.42
+# latest update 0.5
+- **trick page**
+- **teleport page**
+- **auto harvest, auto clear**
+- **streamer mode to account switcher tab**
+
+# Old Update 0.42
 - **Botting**
 - **Account Switching**
 - **and a lot more**
