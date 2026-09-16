@@ -1,5 +1,5 @@
 # Free version is available
-# Noraware Internal v0.5 **[Website](https://noraware.com)**
+# Noraware Internal v0.5.2 **[Website](https://noraware.com)**
 # **[Discord Server](https://discord.gg/7zeRmJ38R8)**
 - **Growtopia Internal: Free (Limited) or Premium (Full Access)!**
 * **[Executor API](api/readme.md)**
@@ -8,7 +8,15 @@
 # Official Showcase
 - https://www.youtube.com/watch?v=dHSZsa5-7uE
 
-# latest update 0.5
+# latest update 0.5.2
+- **better hosting calculation**
+
+<img width="878" height="553" alt="image" src="https://github.com/user-attachments/assets/52c4f9f5-a231-48d4-98aa-b72dc1fdd1cd" />
+<img width="907" height="553" alt="image" src="https://github.com/user-attachments/assets/bea4648c-aa3e-47de-a397-897e2479d19b" />
+<img width="885" height="543" alt="image" src="https://github.com/user-attachments/assets/b326b95f-8a57-45de-92a1-e1aaee255154" />
+
+
+# old update 0.5
 - **trick page**
 - **teleport page**
 - **auto harvest, auto clear**
