@@ -1,12 +1,46 @@
 # Free version is available
-# Noraware Internal v0.5.2 **[Website](https://noraware.com)**
-# **[Discord Server](https://discord.gg/7zeRmJ38R8)**
+# Noraware Internal v0.8 **[Website](https://noraware.com)**
+# Get Free Account from **[Discord Server](https://discord.gg/7zeRmJ38R8)**
 - **Growtopia Internal: Free (Limited) or Premium (Full Access)!**
 * **[Executor API](api/readme.md)**
 * **[General Changelogs](api/changelogs.md)**
 
 # Official Showcase
 - https://www.youtube.com/watch?v=dHSZsa5-7uE
+
+# latest update 0.8
+- fixed **surgery** loophole issue
+- added **carnival** automation, games choosable ( for now there's only 3 games: **Growganoth Gulch**, **Spiky Survival**, **Death Race 5000** will be added more later ) 
+- made **geiger** automation more **precise** calculation 
+- added to **automation category** ( we had these features usable in-game dialogs): planting, harvesting
+- improved **crime** automation
+- added **fishing** automation has detections like **nearby water** etc.. 
+- added **mutex bypass** back **(you can open multiple growtopia instances)**
+- and some more i dont remember
+
+<img width="878" height="552" alt="image" src="https://github.com/user-attachments/assets/237df8da-0c7c-4c9f-83e1-ac84386b7d95" />
+<img width="911" height="554" alt="image" src="https://github.com/user-attachments/assets/bc74f267-b462-40ac-b363-50b742780151" />
+<img width="907" height="554" alt="image" src="https://github.com/user-attachments/assets/feb32c71-c474-41a0-935e-d79fc832b172" />
+<img width="933" height="547" alt="image" src="https://github.com/user-attachments/assets/b1e80fdf-636b-4b1b-8a6b-bbae8777836e" />
+<img width="897" height="549" alt="image" src="https://github.com/user-attachments/assets/f93e389a-9f25-40d5-88b5-a4bcaa68f762" />
+<img width="900" height="564" alt="image" src="https://github.com/user-attachments/assets/2b76978d-d5da-4593-ba3f-a20cc2388169" />
+<img width="877" height="562" alt="image" src="https://github.com/user-attachments/assets/0e163510-28a9-4ef4-982a-9ce304119bd3" />
+<img width="902" height="554" alt="image" src="https://github.com/user-attachments/assets/8ed1f249-533f-463f-944f-b111ba67a894" />
+<img width="898" height="550" alt="image" src="https://github.com/user-attachments/assets/5532d2e5-5181-48da-b186-14d5c44d89d1" />
+
+
+# latest update 0.7
+- fixed vend locator issues added market **percent calculation**.
+- **proxy page** you can select **https bypass** proxy & **in game** proxy as you wish
+- **fast vend** had issues for digivend fixed them all + added fast empty 
+- **world category** added **bookmarks** ( shortly you can add fav places, position, shops etc..
+- **vend locator** added **watch list** tab (here's a scerenshot) 
+- **vend locator** added to **settings** button these -> filters, display, world updated
+
+<img width="902" height="547" alt="image" src="https://github.com/user-attachments/assets/832efbb4-de26-42bf-b350-bceeba3a0864" />
+<img width="488" height="296" alt="image" src="https://github.com/user-attachments/assets/54140f35-eb30-416a-8d72-1a18c07ab051" />
+<img width="752" height="389" alt="image" src="https://github.com/user-attachments/assets/b893fe05-eb87-4c98-aecf-a975fb08e56e" />
+
 
 # latest update 0.5.2
 - **better hosting calculation**
