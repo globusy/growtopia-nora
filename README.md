@@ -32,7 +32,7 @@
 <img width="905" height="559" alt="image" src="https://github.com/user-attachments/assets/0c6f65b5-9067-4dc8-a406-dd4333cc1b8f" />
 
 
-# latest update 0.7
+# old update 0.7
 - fixed vend locator issues added market **percent calculation**.
 - **proxy page** you can select **https bypass** proxy & **in game** proxy as you wish
 - **fast vend** had issues for digivend fixed them all + added fast empty 
@@ -46,7 +46,7 @@
 <img width="488" height="296" alt="image" src="https://github.com/user-attachments/assets/54140f35-eb30-416a-8d72-1a18c07ab051" />
 <img width="752" height="389" alt="image" src="https://github.com/user-attachments/assets/b893fe05-eb87-4c98-aecf-a975fb08e56e" />
 
-# latest update 0.6
+# old update 0.6
 - **account switcher and more..
 
 <img width="882" height="552" alt="image" src="https://github.com/user-attachments/assets/482a56bf-cbbf-4e73-a945-4968d66fcc9b" />
@@ -54,7 +54,7 @@
 
 
 
-# latest update 0.5.2
+# old update 0.5.2
 - **better hosting calculation**
 
 <img width="878" height="553" alt="image" src="https://github.com/user-attachments/assets/52c4f9f5-a231-48d4-98aa-b72dc1fdd1cd" />
