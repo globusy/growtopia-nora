@@ -8,7 +8,33 @@
 # Official Showcase
 - https://www.youtube.com/watch?v=dHSZsa5-7uE
 
-# latest update 0.8
+# latest update 0.8.4
+- added anti take ( you can use auto collect's only item based collection ) 
+- done some fixes
+- vends updated all max 20 days old
+
+# old update 0.8.3
+- mod's **modified app** check bypassed ( they can normally detect if you're some kind of proxy/ch**t user )
+- added to **world** category **transfers** feature ( you can transfer anything automation vend, dropped item, mag/gaia/ut  ... to different world or same world, to selected tile / to vend etc and more ..)
+
+# old update 0.8.2
+- fixed **world scanner** (did stuck bcs of some checks)
+- added **reset** button to **proxy checker** has multiple checking etc
+- added **fetch** button to **proxy checker** fetchs proxies
+- added **carnival** more games, current games: **Growganoth Gulch (left & right)**, **Spiky Survival**,  **Death Race 5000**, **Shooting Gallery (left & right)**, **Mirror Maze**, **Concentration**
+- added **accounts** privacy now you need to click to checkbox to see your credentials its hidden while adding account too so that way in stream or recording it wont be leaked.
+- improved **auto reconnect** you can set timer to reconnect work ( best time for it 10 seconds ) and it works clean
+- improved **proxy checker** when you stop mid run when you start back it continues where it left of
+- improved **farming** checks reachability, based on the reachability adds layers
+- improved **accounts** now while switching account if fails login it automatically fixes it and proceeds you to login
+
+# old update 0.8.1
+- fixed **socks5 proxy's web login** (had some issues)
+- improved **farming** checks magplant if empty it stops 
+- improved **farming** stops if ping rised ( optional ) 
+- improved **world scanner** ( in vend locator )
+
+# old update 0.8
 - fixed **surgery** loophole issue
 - added **carnival** automation, games choosable ( for now there's only 3 games: **Growganoth Gulch**, **Spiky Survival**, **Death Race 5000** will be added more later ) 
 - made **geiger** automation more **precise** calculation 
